@@ -12,7 +12,10 @@ public class Ejercicio6 {
 		edad = cont = mayor = suma = 0;
 		
 		Scanner sc = new Scanner(System.in);
-		
+	
+		System.out.println("A continuacion se re velara la media de las edades introducidas, "
+				+ "la suma total y cuantos alumnos son mayores de edad. ");
+		System.out.println( "Para dejar de introducir edades, introduzca un numero negativo ");
 		edad = sc.nextInt();
 		
 		while (edad>0) {

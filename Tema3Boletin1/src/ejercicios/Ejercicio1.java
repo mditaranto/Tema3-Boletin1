@@ -21,6 +21,7 @@ public class Ejercicio1 {
 		}
 		System.out.println("La suma total de todos los numeros es: " + suma);
 
+		sc.close();
 	}
 
 }
