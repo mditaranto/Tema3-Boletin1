@@ -21,7 +21,7 @@ public class Ejercicio8 {
 			alt = sc.nextInt();
 		}
 		System.out.println("El arbol mas alto mide " + alto + " centimetros");
-
+		sc.close();
 	}
 
 }
